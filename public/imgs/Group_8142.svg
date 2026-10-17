@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="40" viewBox="0 0 60 40">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#020b50"/>
+      <stop offset="1" stop-color="#19b0dc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.019" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path">
+      <path id="Union_98" data-name="Union 98" d="M4.375,9.815a1.129,1.129,0,0,1-.838-.331l-3.2-3.2a1.133,1.133,0,0,1,1.6-1.6L4.375,7.117,11.16.332a1.133,1.133,0,0,1,1.6,1.6L5.214,9.483a1.13,1.13,0,0,1-.8.332Z" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Union_99" data-name="Union 99" d="M4.375,9.815a1.129,1.129,0,0,1-.838-.331l-3.2-3.2a1.133,1.133,0,0,1,1.6-1.6L4.375,7.117,11.16.332a1.133,1.133,0,0,1,1.6,1.6L5.214,9.483a1.13,1.13,0,0,1-.8.332Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Authentication_Ecosystem" data-name="Authentication Ecosystem" transform="translate(-272 -171)">
+    <rect id="Rectangle_3688" data-name="Rectangle 3688" width="60" height="40" transform="translate(272 171)" fill="#fff"/>
+    <path id="Icon_ionic-ios-globe" data-name="Icon ionic-ios-globe" d="M23.3,3.375a20,20,0,0,0,.01,40h.067C23.375,38.434,23.308,3.375,23.3,3.375ZM22.02,22.029H16.08a34.193,34.193,0,0,1,.846-6.644,29.227,29.227,0,0,0,5.094.683Zm0,2.692v5.952a29.35,29.35,0,0,0-5.094.683,34.189,34.189,0,0,1-.846-6.635Zm0-18.365v7.087a26.569,26.569,0,0,1-4.373-.587C18.762,9.606,20.376,7.231,22.02,6.356Zm-4.383.615a20.014,20.014,0,0,0-2.528,5.2,27.292,27.292,0,0,1-3.6-1.481A17.13,17.13,0,0,1,17.637,6.971ZM9.67,12.692a28.69,28.69,0,0,0,4.728,2,36.356,36.356,0,0,0-.942,7.327h-7.4A17.143,17.143,0,0,1,9.67,12.692ZM6.047,24.721h7.4a37.786,37.786,0,0,0,.942,7.327,30.441,30.441,0,0,0-4.728,2A17.234,17.234,0,0,1,6.047,24.721ZM11.5,36.058a26.892,26.892,0,0,1,3.614-1.481,20.085,20.085,0,0,0,2.528,5.212A17.556,17.556,0,0,1,11.5,36.058Zm6.151-2.173A26.708,26.708,0,0,1,22.02,33.3v7.1C20.367,39.519,18.762,37.135,17.647,33.885Z" transform="translate(268.625 167.625)" fill="url(#linear-gradient-3)"/>
+    <g id="Group_8163" data-name="Group 8163" transform="translate(2 6.221)">
+      <path id="Path_1932" data-name="Path 1932" d="M28.565,55.738a6.518,6.518,0,0,0-.106-8.827,5.761,5.761,0,0,0-8.389,0,6.518,6.518,0,0,0-.106,8.827,9.662,9.662,0,0,0-4.794,8.429,1.464,1.464,0,1,0,2.923,0,6.339,6.339,0,0,1,6.171-6.494,6.339,6.339,0,0,1,6.171,6.494,1.464,1.464,0,1,0,2.923,0A9.662,9.662,0,0,0,28.565,55.738Zm-7.344-4.344A3.05,3.05,0,1,1,24.268,54.6,3.129,3.129,0,0,1,21.221,51.394Z" transform="translate(278.828 127.681)" fill="#19b0dc"/>
+      <g id="Group_8162" data-name="Group 8162" transform="translate(300.65 186.964)">
+        <g id="Mask_Group_24" data-name="Mask Group 24" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <rect id="Rectangle_3280" data-name="Rectangle 3280" width="14.164" height="10.765" transform="translate(-0.567 -0.383)" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="Mask_Group_25" data-name="Mask Group 25" transform="translate(4.254 0)" clip-path="url(#clip-path-2)">
+          <rect id="Rectangle_3283" data-name="Rectangle 3283" width="14.164" height="10.765" transform="translate(-0.567 -0.383)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

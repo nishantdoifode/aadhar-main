@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="40" viewBox="0 0 60 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.019" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#020b50"/>
+      <stop offset="1" stop-color="#19b0dc"/>
+    </linearGradient>
+  </defs>
+  <g id="Enrolment_Ecosystem_Icon" data-name="Enrolment Ecosystem Icon" transform="translate(-272 -171)">
+    <rect id="Rectangle_3688" data-name="Rectangle 3688" width="60" height="40" transform="translate(272 171)" fill="#fff"/>
+    <path id="Icon_ionic-ios-globe" data-name="Icon ionic-ios-globe" d="M23.3,3.375a20,20,0,0,0,.01,40h.067C23.375,38.434,23.308,3.375,23.3,3.375ZM22.02,22.029H16.08a34.193,34.193,0,0,1,.846-6.644,29.227,29.227,0,0,0,5.094.683Zm0,2.692v5.952a29.35,29.35,0,0,0-5.094.683,34.189,34.189,0,0,1-.846-6.635Zm0-18.365v7.087a26.569,26.569,0,0,1-4.373-.587C18.762,9.606,20.376,7.231,22.02,6.356Zm-4.383.615a20.014,20.014,0,0,0-2.528,5.2,27.292,27.292,0,0,1-3.6-1.481A17.13,17.13,0,0,1,17.637,6.971ZM9.67,12.692a28.69,28.69,0,0,0,4.728,2,36.356,36.356,0,0,0-.942,7.327h-7.4A17.143,17.143,0,0,1,9.67,12.692ZM6.047,24.721h7.4a37.786,37.786,0,0,0,.942,7.327,30.441,30.441,0,0,0-4.728,2A17.234,17.234,0,0,1,6.047,24.721ZM11.5,36.058a26.892,26.892,0,0,1,3.614-1.481,20.085,20.085,0,0,0,2.528,5.212A17.556,17.556,0,0,1,11.5,36.058Zm6.151-2.173A26.708,26.708,0,0,1,22.02,33.3v7.1C20.367,39.519,18.762,37.135,17.647,33.885Z" transform="translate(268.625 167.625)" fill="url(#linear-gradient)"/>
+    <g id="Group_5793" data-name="Group 5793" transform="translate(-436.601 -481.676)">
+      <path id="Path_282" data-name="Path 282" d="M28.565,55.917a6.711,6.711,0,0,0-.106-8.976,5.7,5.7,0,0,0-8.389,0,6.711,6.711,0,0,0-.106,8.976,9.858,9.858,0,0,0-4.794,8.572,1.465,1.465,0,1,0,2.923,0,6.4,6.4,0,0,1,6.171-6.6,6.4,6.4,0,0,1,6.171,6.6,1.465,1.465,0,1,0,2.923,0A9.858,9.858,0,0,0,28.565,55.917ZM21.221,51.5a3.053,3.053,0,1,1,3.046,3.26A3.158,3.158,0,0,1,21.221,51.5Z" transform="translate(717.429 614.577)" fill="#19b0dc"/>
+      <g id="Group_5789" data-name="Group 5789" transform="translate(744.433 671.51)">
+        <line id="Line_240" data-name="Line 240" y2="15.166" transform="translate(7.453)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="4"/>
+        <line id="Line_241" data-name="Line 241" y2="15.166" transform="translate(15.166 7.711) rotate(90)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* UIDAI standard font fallback */
+}
+
+.nms-page {
+  display: flex;
+ 
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px; /* Thoda wide kiya gaya hai for better spacing */
+  margin: 0 auto;
+  padding: 2.4rem;
+  padding-top: 13%;
+}
+
+/* Layout Split */
+.nms-left {
+  width: 70%;
+}
+
+.nms-right {
+  width: 30%;
+}
+
+/* Headings & Sections */
+.nms-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #003366; /* UIDAI Navy Blue */
+  margin: 0 0 24px;
+  border-bottom: 2px solid #003366;
+  display: inline-block;
+  padding-bottom: 5px;
+  border: none;
+}
+
+.nms-section {
+  margin-bottom: 40px;
+  background: #fff;
+ 
+}
+
+.nms-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+.nms-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nms-section-icon {
+  width: 20px;
+  height: 20px;
+  color: #003366; /* Changed to UIDAI Blue */
+}
+
+.nms-section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.nms-view-all {
+  font-size: 14px;
+  color: #003366;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nms-view-all:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal Slider */
+.nms-slider {
+  position: relative;
+}
+
+.nms-track {
+  display: flex;
+  gap: 20px; /* Gap increased for a cleaner look */
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 4px 16px 4px; /* Added padding to prevent shadow clipping */
+  scrollbar-width: none;
+  flex-wrap: nowrap; /* FIXED: Ensure cards stay in a single row */
+}
+
+.nms-track::-webkit-scrollbar {
+  display: none;
+}
+
+.nms-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 2;
+  color: #003366;
+}
+
+.nms-arrow:hover {
+  background: #003366;
+  color: #fff;
+}
+
+.nms-arrow-left { left: -16px; }
+.nms-arrow-right { right: -16px; }
+
+/* Cards Styling */
+.nms-card, .nms-video-card, .nms-quote-card {
+  /* FIXED: Removed conflicting 'width' and fixed flex basis for slider */
+  flex: 0 0 calc(50% - 10px); 
+  min-width: 250px; 
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px; /* UIDAI uses subtle rounded corners */
+  padding: 16px;
+  transition: all 0.3s ease;
+  border-top: 3px solid transparent;
+}
+
+/* UIDAI Signature Hover Effect */
+.nms-card:hover, .nms-video-card:hover, .nms-quote-card:hover {
+  border-top: 3px solid #003366;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  transform: translateY(-3px);
+}
+
+.nms-card-title, .nms-video-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 8px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.nms-card-date {
+  font-size: 12px;
+  color: #666;
+  margin: 0 0 12px;
+}
+
+.nms-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #003366;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nms-card-link:hover {
+  text-decoration: underline;
+}
+
+/* Specific Card Layouts */
+.nms-video-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nms-video-thumb {
+  width: 100%;
+  height: 140px; /* Made thumbnail bigger for realism */
+  background: #f0f0f0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+}
+
+.nms-quote-text {
+  font-size: 14px;
+  color: #444;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Banner / Sidebar widget */
+.nms-banner {
+  background: linear-gradient(135deg, #fff9f0 0%, #ffe8d1 100%); /* Adjusted Aadhaar warm tone */
+  border-radius: 8px;
+  border: 1px solid #fbdba7;
+  padding: 24px 16px;
+  text-align: center;
+  position: sticky;
+  top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.nms-banner-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #b45309;
+  margin: 0 0 8px;
+}
+
+.nms-banner-tagline {
+  font-size: 13px;
+  font-weight: 600;
+  color: #c2410c;
+  letter-spacing: 0.5px;
+  margin: 0 0 16px;
+}
+
+.nms-banner-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #003366; /* UIDAI Call-to-action color */
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.nms-banner-btn:hover {
+  background: #002244;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nms-page {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .nms-left, .nms-right {
+    width: 100%;
+  }
+  .nms-card, .nms-video-card, .nms-quote-card {
+    flex: 0 0 calc(100% - 10px); /* 1 card per row on mobile inside slider */
+  }
+}

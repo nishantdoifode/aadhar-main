@@ -1,0 +1,156 @@
+{
+  "download": [
+    { "id": 1, "question": "What is Electronic Aadhaar (e-Aadhaar)?", "description": "e-Aadhaar is a digitally signed, password-protected PDF version of your Aadhaar card that carries the same validity as the physical Aadhaar card and can be downloaded online." },
+    { "id": 2, "question": "What is the password to open my downloaded e-Aadhaar?", "description": "The password is a combination of the first 4 letters of your name in CAPITAL letters followed by your year of birth in YYYY format, for example RAJE1990." },
+    { "id": 3, "question": "Can I download Aadhaar using my Enrolment ID (EID)?", "description": "Yes, you can download your e-Aadhaar using either your 12-digit Aadhaar number or your 28-digit Enrolment ID along with OTP verification on your registered mobile number." },
+    { "id": 4, "question": "What if I don't receive the OTP while downloading Aadhaar?", "description": "Check that your mobile number is correctly registered with UIDAI, ensure good network connectivity, and try resending the OTP after the cooldown period." },
+    { "id": 5, "question": "Is e-Aadhaar valid as a proof of identity everywhere?", "description": "Yes, e-Aadhaar is a valid, digitally signed electronic document and is accepted as identity and address proof at par with the physical Aadhaar card." },
+    { "id": 6, "question": "Can I download Aadhaar without a registered mobile number?", "description": "No, an OTP sent to your registered mobile number is mandatory to download e-Aadhaar. If not registered, update it at an Aadhaar centre first." },
+    { "id": 7, "question": "How many times can I download my e-Aadhaar?", "description": "There is no limit on the number of times you can download your e-Aadhaar as long as OTP verification succeeds each time." },
+    { "id": 8, "question": "What should I do if my downloaded e-Aadhaar PDF is corrupted?", "description": "Try downloading again with a stable internet connection, or clear your browser cache and use a different browser or device." }
+  ],
+
+  "retrieve_uid": [
+    { "id": 1, "question": "What is UID/EID and where do I find it?", "description": "UID (Aadhaar Number) is the 12-digit number printed on your Aadhaar card. EID (Enrolment ID) is the 28-digit number on your enrolment slip." },
+    { "id": 2, "question": "I have lost my Aadhaar card and don't remember my Aadhaar number. What should I do?", "description": "You can retrieve your lost or forgotten Aadhaar number using this service by entering your registered name, date of birth, and mobile number or email." },
+    { "id": 3, "question": "Which mobile number or email should I enter here?", "description": "Enter the same mobile number or email address that was registered with UIDAI at the time of Aadhaar enrolment or the most recent update." },
+    { "id": 4, "question": "What if my mobile number is not registered with Aadhaar?", "description": "This online service will not work without a registered mobile number. Visit the nearest Aadhaar Seva Kendra to update it first." },
+    { "id": 5, "question": "Is there any fee for retrieving my Aadhaar number or Enrolment ID?", "description": "No, retrieving your Aadhaar number or Enrolment ID through the official UIDAI portal is completely free of cost." },
+    { "id": 6, "question": "How many times can I request an OTP for verification?", "description": "There is a limit on OTP requests within a given time frame to prevent misuse. Wait before requesting a new one if the limit is hit." },
+    { "id": 7, "question": "Will I get my full Aadhaar number or a masked version?", "description": "After successful OTP verification, your full Aadhaar number or Enrolment ID is sent to your registered mobile number or email." },
+    { "id": 8, "question": "Can someone else retrieve my Aadhaar number on my behalf?", "description": "No, retrieval requires OTP verification sent only to your own registered mobile number or email." },
+    { "id": 9, "question": "What details are required to retrieve my UID/EID?", "description": "Your full name as per Aadhaar, date of birth, and either registered mobile number or email address along with captcha." }
+  ],
+
+  "verify_contact": [
+    { "id": 1, "question": "Why should I verify my mobile number/email linked to Aadhaar?", "description": "It confirms whether your current contact details match the ones registered with UIDAI, essential for OTP-based services." },
+    { "id": 2, "question": "What happens if the verification fails?", "description": "It means the entered mobile number or email doesn't match UIDAI records, and you'll need to update it at an Aadhaar centre." },
+    { "id": 3, "question": "Can I verify both mobile number and email at the same time?", "description": "Yes, the portal allows checking verification status of both mobile number and email in the same session." },
+    { "id": 4, "question": "Is there a fee for verifying my contact details?", "description": "No, verifying your registered mobile number or email is a completely free UIDAI service." },
+    { "id": 5, "question": "How often should I verify my registered contact details?", "description": "Verify whenever you change your mobile number or email, or periodically to ensure your Aadhaar record stays current." },
+    { "id": 6, "question": "What if I no longer have access to my registered mobile number?", "description": "Update it as soon as possible by visiting an Aadhaar Seva Kendra with valid identity proof." },
+    { "id": 7, "question": "Does this service show my actual mobile number or email?", "description": "No, it only confirms a match for privacy reasons; it never displays your actual registered details." }
+  ],
+
+  "report_death": [
+    { "id": 1, "question": "Who can report the death of an Aadhaar holder?", "description": "A family member, legal heir, registered informant, or authorized government official can report the death for deactivation." },
+    { "id": 2, "question": "What documents are required to report a death?", "description": "A valid death certificate from the competent authority, the deceased's Aadhaar number, and the informant's identity proof." },
+    { "id": 3, "question": "What happens after a death is reported?", "description": "Once verified, UIDAI deactivates the deceased's Aadhaar to prevent misuse and marks the record accordingly." },
+    { "id": 4, "question": "Can Aadhaar deactivation be reversed by mistake?", "description": "Deactivation happens only after due verification; errors can be corrected by contacting UIDAI with supporting documents." },
+    { "id": 5, "question": "Is there a deadline to report the death of an Aadhaar holder?", "description": "No strict penalty for delay, but early reporting is recommended to prevent identity misuse." },
+    { "id": 6, "question": "Is there a fee for reporting the death of a family member?", "description": "No, reporting a death for Aadhaar deactivation is a free UIDAI service." },
+    { "id": 7, "question": "Can this be done fully online or do I need to visit a centre?", "description": "Initial reporting can often be done online, but submitting the original death certificate may need a centre visit or CRS linkage." }
+  ],
+
+  "doc_update": [
+    { "id": 1, "question": "Which documents are accepted as Proof of Identity (PoI)?", "description": "Passport, PAN card, Voter ID, Driving License, and other government-issued photo ID cards." },
+    { "id": 2, "question": "Which documents are accepted as Proof of Address (PoA)?", "description": "Utility bills, bank statements, rent agreements, passport, and voter ID are commonly accepted for address updates." },
+    { "id": 3, "question": "What file formats are supported for document upload?", "description": "Documents are usually accepted in JPEG, PNG, or PDF format, within a specified maximum file size." },
+    { "id": 4, "question": "How long does it take to process a document update?", "description": "Typically a few days to a couple of weeks, depending on verification requirements and request volume." },
+    { "id": 5, "question": "Is there a fee for updating documents in Aadhaar?", "description": "Yes, UIDAI charges a nominal fee for demographic updates, varying slightly by mode of update." },
+    { "id": 6, "question": "Can I update multiple documents in a single request?", "description": "Yes, multiple supporting documents can be uploaded together if related to the same set of changes." },
+    { "id": 7, "question": "What if my document update request gets rejected?", "description": "UIDAI usually provides a reason; you can resubmit with the correct or clearer document." },
+    { "id": 8, "question": "How can I check the status of my document update request?", "description": "Track it on the UIDAI portal using the Update Request Number (URN) generated at submission." }
+  ],
+
+  "vid_generator": [
+    { "id": 1, "question": "What is a Virtual ID (VID)?", "description": "A temporary, revocable 16-digit random number mapped to your Aadhaar, usable instead of your Aadhaar number for authentication." },
+    { "id": 2, "question": "Why should I use a VID instead of my Aadhaar number?", "description": "It adds privacy since it doesn't reveal your actual Aadhaar number to the service provider during authentication." },
+    { "id": 3, "question": "How long is a Virtual ID valid?", "description": "A VID stays valid for a minimum period set by UIDAI, after which it expires and a new one can be generated." },
+    { "id": 4, "question": "Can I generate a VID without a registered mobile number?", "description": "No, generating a VID requires OTP verification sent only to your registered mobile number." },
+    { "id": 5, "question": "Can I use my old VID once a new one is generated?", "description": "No, the previous VID becomes invalid immediately once a new one is generated." },
+    { "id": 6, "question": "Is there a limit on how many times I can generate a VID?", "description": "Yes, there is a daily limit on VID generation to prevent misuse of the service." },
+    { "id": 7, "question": "Is generating a VID a free service?", "description": "Yes, generating or retrieving your Virtual ID through the UIDAI portal is completely free." }
+  ],
+
+  "lock_unlock": [
+    { "id": 1, "question": "What happens when I lock my Aadhaar biometrics?", "description": "It disables fingerprint and iris-based authentication, protecting you from unauthorized biometric use." },
+    { "id": 2, "question": "Can I still use Aadhaar for authentication after locking biometrics?", "description": "Yes, OTP-based authentication still works even after locking your biometrics." },
+    { "id": 3, "question": "How do I unlock my Aadhaar biometrics when needed?", "description": "Unlock anytime through the UIDAI portal using your Aadhaar number or VID with OTP verification." },
+    { "id": 4, "question": "Is locking and unlocking Aadhaar biometrics free?", "description": "Yes, it is a completely free service provided by UIDAI." },
+    { "id": 5, "question": "Do I need a registered mobile number to lock/unlock biometrics?", "description": "Yes, OTP verification via your registered mobile number is mandatory." },
+    { "id": 6, "question": "How long does a biometric lock remain active?", "description": "It remains active until you manually unlock it; there's no automatic expiry." },
+    { "id": 7, "question": "Can I temporarily unlock biometrics for a single transaction?", "description": "Yes, UIDAI allows temporary unlocking for a limited time, after which it locks again automatically." },
+    { "id": 8, "question": "Is it safe to keep my Aadhaar biometrics locked permanently?", "description": "Yes, it's recommended to keep biometrics locked and unlock only temporarily when genuinely required." }
+  ],
+
+  "bank_seeding": [
+    { "id": 1, "question": "What is Aadhaar Bank Seeding Status?", "description": "It shows whether your Aadhaar number is linked (seeded) with your bank account for receiving subsidies and benefits directly." },
+    { "id": 2, "question": "Why is bank seeding important?", "description": "Seeding ensures direct benefit transfers (DBT), subsidies, and government payments reach your bank account without delays." },
+    { "id": 3, "question": "How can I check my Aadhaar bank seeding status?", "description": "Enter your Aadhaar number and captcha on the portal, verify via OTP, and view your seeding status instantly." },
+    { "id": 4, "question": "What if my bank account is not seeded with Aadhaar?", "description": "Visit your bank branch or use net banking/mobile banking to link your Aadhaar with your bank account." },
+    { "id": 5, "question": "Can I seed multiple bank accounts with one Aadhaar?", "description": "You can link Aadhaar to multiple accounts, but only one account can be marked as the primary DBT-enabled account." },
+    { "id": 6, "question": "Is there a fee to check bank seeding status?", "description": "No, checking your Aadhaar bank seeding status online is completely free." },
+    { "id": 7, "question": "How long does bank seeding take to reflect after linking?", "description": "It usually takes a few working days for the seeding status to update after linking your Aadhaar with your bank." }
+  ],
+
+  "pvc_card_status": [
+    { "id": 1, "question": "What is an Aadhaar PVC Card?", "description": "It's a durable, credit-card-sized, laminated version of Aadhaar with enhanced security features like a QR code and hologram." },
+    { "id": 2, "question": "How can I check my Aadhaar PVC Card order status?", "description": "Enter your Aadhaar number, EID, or SRN (Service Request Number) along with captcha to track your order status." },
+    { "id": 3, "question": "What is SRN and where do I find it?", "description": "SRN is the Service Request Number generated when you place a PVC card order, sent to your registered mobile number or email." },
+    { "id": 4, "question": "How long does it take to receive the Aadhaar PVC card?", "description": "It typically takes about 5 to 15 working days for delivery via India Post after a successful order." },
+    { "id": 5, "question": "What if my PVC card order status shows 'delayed' or 'returned'?", "description": "Check your delivery address for accuracy, and if the card was returned, you may need to reorder with correct details." },
+    { "id": 6, "question": "Is there a fee for ordering an Aadhaar PVC Card?", "description": "Yes, UIDAI charges a nominal fee for printing and delivery of the Aadhaar PVC card." },
+    { "id": 7, "question": "Can I order a PVC card without a registered mobile number?", "description": "Yes, but you'll need to provide an alternate mobile number for OTP verification during the ordering process." }
+  ],
+
+  "enrolment_status": [
+    { "id": 1, "question": "How can I check my Aadhaar Enrolment or Update status?", "description": "Enter your Enrolment ID (EID) along with the date and time of enrolment/update printed on your acknowledgement slip." },
+    { "id": 2, "question": "How long does it take for Aadhaar enrolment to be processed?", "description": "It usually takes 60 to 90 days for a new Aadhaar enrolment or update request to be processed and approved." },
+    { "id": 3, "question": "What does 'under process' status mean?", "description": "It means your enrolment or update request is still being verified by UIDAI and hasn't been finalized yet." },
+    { "id": 4, "question": "What if my enrolment request gets rejected?", "description": "UIDAI will share the reason for rejection; you can visit an enrolment centre again with corrected documents." },
+    { "id": 5, "question": "Can I check update status without an Enrolment ID?", "description": "No, EID along with date and time of the request is mandatory to check enrolment or update status." },
+    { "id": 6, "question": "Will I get a notification once my update is complete?", "description": "Yes, an SMS notification is usually sent to your registered mobile number once the update is processed." },
+    { "id": 7, "question": "Is checking enrolment status a free service?", "description": "Yes, tracking your Aadhaar enrolment or update status online is completely free of charge." }
+  ],
+
+  "locate_center": [
+    { "id": 1, "question": "How can I locate the nearest Aadhaar Seva Kendra?", "description": "Enter your state, district, or PIN code on the portal to view a list of nearby Aadhaar enrolment and update centres." },
+    { "id": 2, "question": "Are all Aadhaar centres open on all days?", "description": "No, working days and hours vary by centre; it's best to check the specific centre's timings before visiting." },
+    { "id": 3, "question": "Do I need to book an appointment before visiting a centre?", "description": "Some centres allow walk-ins, but many require prior appointment booking to avoid long waiting times." },
+    { "id": 4, "question": "Can I find centres offering specific services like PVC card printing?", "description": "Yes, the locator shows available services at each centre, including biometric update, PVC card, and demographic updates." },
+    { "id": 5, "question": "Is locating an Aadhaar centre a free service?", "description": "Yes, searching for nearby Aadhaar Seva Kendras through the official portal is completely free." },
+    { "id": 6, "question": "What if there's no Aadhaar centre near my location?", "description": "You can check nearby districts or visit designated bank branches and post offices that also offer Aadhaar services." },
+    { "id": 7, "question": "Can I get directions to the Aadhaar centre from the portal?", "description": "Yes, most listings include an address and map link to help you navigate to the nearest centre." }
+  ],
+
+  "book_appointment": [
+    { "id": 1, "question": "How do I book an appointment for Aadhaar enrolment or update?", "description": "Select your city or Aadhaar Seva Kendra, choose an available date and time slot, and confirm your booking online." },
+    { "id": 2, "question": "Is appointment booking mandatory for all Aadhaar centres?", "description": "It's mandatory for Aadhaar Seva Kendras (ASKs) but optional for some other enrolment centres that accept walk-ins." },
+    { "id": 3, "question": "Can I reschedule or cancel my booked appointment?", "description": "Yes, you can reschedule or cancel your appointment online before the scheduled date and time." },
+    { "id": 4, "question": "What should I bring to my Aadhaar appointment?", "description": "Carry your appointment confirmation slip along with original supporting documents for identity and address proof." },
+    { "id": 5, "question": "Is there a fee for booking an appointment?", "description": "No, booking the appointment itself is free; charges apply only for the actual enrolment or update service." },
+    { "id": 6, "question": "What happens if I miss my scheduled appointment?", "description": "You will need to book a new appointment slot, as missed appointments are not automatically rescheduled." },
+    { "id": 7, "question": "How early should I arrive for my appointment?", "description": "It's recommended to arrive at least 10-15 minutes before your scheduled slot to complete formalities on time." }
+  ],
+
+  "check_validity": [
+    { "id": 1, "question": "What does 'Check Aadhaar Validity' mean?", "description": "It lets you verify whether your Aadhaar number is currently active, valid, and correctly linked in the UIDAI database." },
+    { "id": 2, "question": "How can I check if my Aadhaar is valid?", "description": "Enter your 12-digit Aadhaar number and captcha on the portal to instantly view its validity status." },
+    { "id": 3, "question": "Why would my Aadhaar show as invalid or inactive?", "description": "This can happen due to deactivation after death reporting, duplicate Aadhaar cancellation, or data discrepancies." },
+    { "id": 4, "question": "What should I do if my Aadhaar shows invalid status?", "description": "Visit the nearest Aadhaar Seva Kendra with your identity documents to resolve the issue and reactivate if eligible." },
+    { "id": 5, "question": "Is checking Aadhaar validity a free service?", "description": "Yes, verifying your Aadhaar validity status online is completely free of cost." },
+    { "id": 6, "question": "Does this service reveal my personal Aadhaar details?", "description": "No, it only confirms the active/inactive status without displaying sensitive personal information." },
+    { "id": 7, "question": "Can I check someone else's Aadhaar validity?", "description": "You can check validity using just the Aadhaar number, but sensitive personal details remain protected regardless." }
+  ],
+
+  "grievance_feedback": [
+    { "id": 1, "question": "How can I file a grievance or feedback regarding Aadhaar services?", "description": "Fill out the online grievance form with your contact details, category of issue, and a description of your complaint." },
+    { "id": 2, "question": "What type of issues can I report through this service?", "description": "You can report enrolment issues, update delays, biometric problems, centre-related complaints, or general feedback." },
+    { "id": 3, "question": "Do I need my Aadhaar number to file a grievance?", "description": "It's recommended but not always mandatory; some general feedback categories don't require an Aadhaar number." },
+    { "id": 4, "question": "How long does it take to resolve a grievance?", "description": "Resolution time varies by complaint type, typically ranging from a few days to a few weeks." },
+    { "id": 5, "question": "Will I receive a reference number after filing a grievance?", "description": "Yes, a unique grievance/reference number is generated which you can use to track the status later." },
+    { "id": 6, "question": "Is filing a grievance or feedback free of cost?", "description": "Yes, submitting grievances or feedback through the official UIDAI portal is completely free." },
+    { "id": 7, "question": "Can I attach supporting documents with my grievance?", "description": "Yes, the form typically allows you to upload relevant documents or screenshots to support your complaint." }
+  ],
+
+  "grievance_status": [
+    { "id": 1, "question": "How can I check the status of my filed grievance?", "description": "Enter your grievance reference number (SRN) on the portal to view its current status and any updates." },
+    { "id": 2, "question": "What if I lost my grievance reference number?", "description": "Check your email or SMS confirmation received at the time of filing, as it usually contains the reference number." },
+    { "id": 3, "question": "What does 'in progress' status mean for my grievance?", "description": "It means your complaint has been received and is currently being reviewed or resolved by the concerned department." },
+    { "id": 4, "question": "How will I be notified once my grievance is resolved?", "description": "You'll typically receive an SMS or email notification to your registered contact details once it's resolved." },
+    { "id": 5, "question": "What should I do if my grievance status hasn't changed for a long time?", "description": "You can follow up by raising a reminder or escalation through the same portal referencing your original SRN." },
+    { "id": 6, "question": "Is checking grievance status a free service?", "description": "Yes, tracking the status of your filed grievance online is completely free of charge." },
+    { "id": 7, "question": "Can I reopen a grievance if I'm not satisfied with the resolution?", "description": "Yes, most portals allow you to reopen or escalate a grievance if the resolution provided isn't satisfactory." }
+  ]
+}

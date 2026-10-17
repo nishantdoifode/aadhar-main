@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+}
+
+.maincontentleft {
+  display: flex;
+  padding: 3rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.maincontent ,.maincontentlefteco ,.maincontentleftabout {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+
+}
+.rightsectionabout{
+ margin-top: 3rem;
+  width: 30%;
+}
+.controldiv{
+  display: flex;
+  
+}
+.maincontentleftabout {
+  padding: 2rem;
+  flex-wrap: wrap;
+  display: flex;
+}
+.maincontentlefteco {
+  padding: 2rem;
+  flex-wrap: wrap;
+
+}
+
+.maincontentlefteco #p2 , .maincontentleftabout #p2 {
+    text-wrap: wrap;
+}
+#p2 {
+  text-wrap: wrap;
+}
+
+
+.maincontentdiv {
+  width: 100%;
+  height: 100%;
+  min-height: fit-content;
+  max-height: fit-content;
+  margin: 0.75rem 0;
+  padding: 1rem;
+  border-top: 4px solid;
+  border-image: linear-gradient(to right, #02084d, #1aabd8) 1;
+  border-radius: 5px;
+  box-shadow: 0.1px 0.2px 2px 0.1px grey;
+}
+
+.maincontent .slider-main {
+
+  border-top: 5px solid #edb872 !important;
+}
+
+/* Fix: first child resets border */
+.maincontent div.maincontentdiv {
+  margin: 0.75rem 0;
+  border-top: 4px solid;
+  border-image: linear-gradient(to right, #02084d, #1aabd8) 1;
+  width: 100%;
+  height: 200px;
+}
+
+.maincontent div.maincontentdiv:nth-child(1) {
+  border: none;
+  height: auto;
+  margin: 0;
+}
+
+/* QNA Sidebar */
+.maincontentleft .QNA {
+
+  display: block;
+  text-wrap: wrap;
+
+
+}
+
+.maincontentleft .QNA a {
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.QNA div {
+  width: auto;
+
+  padding: 0.85rem;
+  border-radius: 5px;
+  box-shadow: 0.2px 0.2px 1px 0.2px grey;
+  margin: 0.75rem 0.25rem;
+}
+
+.QNA1 {
+  padding: 1rem;
+  text-wrap: wrap;
+  width: 25vw;
+  height: 70vh;
+  box-shadow: 0.5px 0.5px 1px 0.5px grey;
+}
+
+.rightsection {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 2rem;
+}
+
+.maincontentleft .QNA .maincontentdiv {
+  width: 300px;
+  margin: 0.75rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 0 black;
+}
+#aadhaar-links{
+    padding-bottom: 2rem;
+    gap: 10px;
+}
+.space{
+  margin-top: 4rem;
+}
+#twodiv {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+}
+#twdiv p {
+  color: #25802a;
+  font-size: 15px;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+#twdiv #p2 {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+  text-wrap: wrap;
+}
+
+#twdiv div h3 a {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#twdiv div h2 a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+#twdiv div ul li a {
+  color: #000045;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+#twdiv ul {
+  padding: 0 0 0.5rem;
+  margin: 0;
+}
+
+#twdiv ul li {
+  display: inline-flex;
+  list-style-type: none;
+  flex: 0 0 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#twdiv ul li:not(:last-child)::after {
+  content: " | ";
+  font-size: 10px;
+  padding: 1px 6px;
+}
+
+/* ===== RESPONSIVE (Tablet & Mobile) ===== */
+
+@media (max-width: 1024px) {
+  .maincontentleft {
+    padding: 2rem;
+  }
+
+  .maincontent,
+  .maincontentlefteco,
+  .maincontentleftabout {
+    width: 60%;
+  }
+
+  .rightsectionabout {
+    width: 35%;
+  }
+
+  .QNA1 {
+    width: 30vw;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .maincontentleft {
+    padding: 1.5rem;
+  }
+
+  .maincontentlefteco,
+  .maincontentleftabout {
+    padding: 1.5rem;
+  }
+
+  .maincontent,
+  .maincontentlefteco,
+  .maincontentleftabout {
+    width: 65%;
+  }
+
+  .rightsectionabout {
+    width: 30%;
+    margin-top: 1.5rem;
+  }
+
+  .rightsection {
+    margin-left: 1rem;
+  }
+
+  .QNA1 {
+    width: 28vw;
+    height: auto;
+  }
+
+  .maincontentleft .QNA .maincontentdiv {
+    width: 100%;
+  }
+}
+
+/* Real mobile: ab left-right stack hoga */
+@media (max-width: 600px) {
+  .maincontentleft {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .maincontentlefteco,
+  .maincontentleftabout {
+    padding: 1rem;
+  }
+
+  .maincontent,
+  .maincontentlefteco,
+  .maincontentleftabout {
+    width: 100%;
+  }
+
+  .rightsectionabout {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .rightsection {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .controldiv {
+    flex-wrap: wrap;
+  }
+
+  .QNA1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .maincontentdiv {
+    height: auto;
+    min-height: fit-content;
+  }
+
+  .maincontent div.maincontentdiv {
+    height: auto;
+  }
+
+  #twdiv ul li {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #twdiv ul li:not(:last-child)::after {
+    content: none;
+  }
+
+  #twdiv p,
+  #twdiv #p2 {
+    text-wrap: wrap;
+    white-space: normal;
+  }
+
+  .space {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #twdiv p,
+  #twdiv #p2 {
+    font-size: 13px;
+  }
+
+  #twdiv div h3 a {
+    font-size: 17px;
+  }
+}
+
+.aboutnavimg img{
+  width: 100%;
+  height: fit-content;
+  margin:auto;
+  
+}
+.ecosystemdiv img{
+  width: 100%;
+  height: fit-content;
+  margin:auto;
+}

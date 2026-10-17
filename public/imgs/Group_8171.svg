@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="42" viewBox="0 0 66 42">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.075" y1="0.44" x2="0.923" y2="0.445" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#020b50"/>
+      <stop offset="1" stop-color="#19b0dc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_8171" data-name="Group 8171" transform="translate(-533 -1418)">
+    <path id="Icon_awesome-archive" data-name="Icon awesome-archive" d="M1.719,24.6a1.717,1.717,0,0,0,1.719,1.719H24.071A1.717,1.717,0,0,0,25.79,24.6V9.127H1.719Zm8.6-11.391a.647.647,0,0,1,.645-.645h5.588a.647.647,0,0,1,.645.645v.43a.647.647,0,0,1-.645.645H10.961a.647.647,0,0,1-.645-.645ZM25.79,2.25H1.719A1.717,1.717,0,0,0,0,3.969V6.548a.862.862,0,0,0,.86.86H26.65a.862.862,0,0,0,.86-.86V3.969A1.717,1.717,0,0,0,25.79,2.25Z" transform="translate(570.491 1432.679)" fill="url(#linear-gradient)"/>
+    <path id="Path_1939" data-name="Path 1939" d="M31.791,40H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0H56a8,8,0,0,1,8,8" transform="translate(534 1419)" fill="none" stroke="#137eb2" stroke-linecap="round" stroke-width="2"/>
+    <g id="Group_8165" data-name="Group 8165" transform="translate(122 97.5)">
+      <line id="Line_892" data-name="Line 892" x2="19" transform="translate(419 1329.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_893" data-name="Line 893" x2="19" transform="translate(419 1335.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_894" data-name="Line 894" x2="19" transform="translate(419 1341.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_895" data-name="Line 895" x2="19" transform="translate(419 1347.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_896" data-name="Line 896" x2="19" transform="translate(419 1353.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

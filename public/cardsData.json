@@ -1,0 +1,109 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "image": "/imgs/DownloadAadhaar.a2d1e98fb6b4bea18da11eb69d7ee5e6.svg",
+      "heading": "Download Aadhaar",
+      "description": "Click here to download digitally signed and password protected electronic copy of the Aadhaar.",
+      "type": "download"
+    },
+    {
+      "id": 2,
+      "image": "/imgs/RetrieveUid.71a1dc8b0f3ae94e8c910d348bf5459c.svg",
+      "heading": "Retrieve Aadhaar number/EID/SID",
+      "description": "Click here to find out Aadhaar number, Enrolment ID (EID) or Service ID (SID).",
+      "type": "retrieve_uid"
+    },
+    {
+      "id": 3,
+      "image": "/imgs/VerifyMobile.9f06273a26fced1586176233a824a873.svg",
+      "heading": "Verify email / mobile",
+      "description": "Click here to verify mobile and email registered with the Aadhaar.",
+      "type": "verify_contact"
+    },
+    {
+      "id": 4,
+      "image": "/imgs/Death-icon.727b9fb544db4c5f6912fc85fbf44012.svg",
+      "heading": "Report death of a family member ",
+      "description": "Click here to report death of a Family Member for his/her Aadhaar deactivation.",
+      "type": "report_death"
+    },
+    {
+      "id": 5,
+      "image": "/imgs/DocumentUpdate.367e861345889bdb4d30906dad6b698a.svg",
+      "heading": "Document update",
+      "description": "Click Here to upload your Proof of Identity (PoI) and Proof of Address (PoA) Documents.",
+      "type": "doc_update"
+    },
+    {
+      "id": 6,
+      "image": "/imgs/GenerateVirtualId.99091915b8c8ab9d474e40098f4ce04f (1).svg",
+      "heading": "VID generator",
+      "description": "Click here to generate 16 Digit Virtual ID(VID) linked to your Aadhaar.",
+      "type": "vid_generator"
+    },
+    {
+      "id": 7,
+      "image": "/imgs/AadhaarLockUnlock.1829e87a7682bc7753b7c8c8c8727d28 (1).svg",
+      "heading": "Lock / Unlock Aadhaar",
+      "description": " Click to temporarily lock/unlock your Aadhaar. please Use This Service Carefully.",
+      "type": "lock_unlock"
+    },
+    {
+      "id": 8,
+      "image": "/imgs/BankLinking.2f5998ed8452667406cb93aa5298209b.svg",
+      "heading": "Bank seeding status",
+      "description": "Click here to find Bank Seeding Status.",
+      "type": "bank_status"
+    },
+    {
+      "id": 9,
+      "image": "/imgs/OrderPVCStatusIcon.48dbab5dff41be6c2f3af8b8ede434f2 (1).svg",
+      "heading": "Check Aadhar PVC Card order Status",
+      "description": " Click Here to check the status of your Aadhaar PVC Card ordered.",
+      "type": "pvc_status"
+    },
+    {
+      "id": 10,
+      "image": "/imgs/EnrolmentStatusIcon.1da8598aa6207b1ccf948943bf7327fb (1).svg",
+      "heading": "Check Enrolment Or Update Status",
+      "description": " Click Here to check the status of your Aadhaar Enrolment or Update Request.",
+      "type": "enrolment_status"
+    },
+    {
+      "id": 11,
+      "image": "/imgs/LecIcon.ec816ce5df2591d29d04ba14530d9fb7.svg",
+      "heading": "Locate Enrolment Center",
+      "description": " click here to search And Locate Nearby Aadhaar Seva Kendra.",
+      "type": "locate_center"
+    },
+    {
+      "id": 12,
+      "image": "/imgs/BookAppointmentIcon.145e2775384d73cbf7b196c6f6cf7a6d (1).svg",
+      "heading": "Book An Appointment",
+      "description": "Click here to book an appointment for Aadhaar Enrolment or Update.",
+      "type": "book_appointment"
+    },
+    {
+      "id": 13,
+      "image": "/imgs/CheckAadhaarValidityIcon.7c3acc020544ff1e71ef10d982263eed.svg",
+      "heading": "check Aadhaar Validity",
+      "description": " click here to validate the status of the aadhaar.",
+      "type": "check_validity"
+    },
+    {
+      "id": 14,
+      "image": "/imgs/FileAComplaintIcon.4450c8d4e888ca35dd739d7831e79cce (1).svg",
+      "heading": "Grievance And Feedback",
+      "description": "Click here to file Your grievance or feedback.",
+      "type": "file_complaint"
+    },
+    {
+      "id": 15,
+      "image": "/imgs/CheckComplaintStatusIcon.225aeb96c98e142087f3de95ab62793a (1).svg",
+      "heading": "Check Grievance / Feedback Status",
+      "description": "click here to check the status of the grievance or feedback.",
+      "type": "complaint_status"
+    }
+  ]
+}

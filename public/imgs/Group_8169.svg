@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="40" viewBox="0 0 64 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.082" y1="0.517" x2="0.904" y2="0.512" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#020b50"/>
+      <stop offset="1" stop-color="#19b0dc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_8169" data-name="Group 8169" transform="translate(-412 -1324)">
+    <g id="Rectangle_3690" data-name="Rectangle 3690" transform="translate(412 1324)" fill="#fff" stroke="#137eb2" stroke-width="2">
+      <rect width="64" height="40" rx="8" stroke="none"/>
+      <rect x="1" y="1" width="62" height="38" rx="7" fill="none"/>
+    </g>
+    <g id="Group_8165" data-name="Group 8165" transform="translate(0 2.5)">
+      <line id="Line_892" data-name="Line 892" x2="19" transform="translate(419 1329.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_893" data-name="Line 893" x2="19" transform="translate(419 1335.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_894" data-name="Line 894" x2="19" transform="translate(419 1341.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_895" data-name="Line 895" x2="19" transform="translate(419 1347.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_896" data-name="Line 896" x2="19" transform="translate(419 1353.5)" fill="none" stroke="#020b50" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Group_8168" data-name="Group 8168" transform="translate(0 1)">
+      <g id="Group_8167" data-name="Group 8167" transform="translate(-2.249 1.409)">
+        <path id="Subtraction_53" data-name="Subtraction 53" d="M10562,2282v0l0-14h6v13.995l-3-5-3,5Z" transform="matrix(0.883, 0.469, -0.469, 0.883, -7806.73, -5619.083)" fill="#19b0dc"/>
+        <path id="Subtraction_54" data-name="Subtraction 54" d="M0,0V0L0,14H6v-14L3,5,0,0Z" transform="matrix(-0.883, 0.469, -0.469, -0.883, 470.873, 1354.363)" fill="#19b0dc"/>
+      </g>
+      <g id="Group_8166" data-name="Group 8166" transform="translate(-5 -3)">
+        <path id="Polygon_45" data-name="Polygon 45" d="M13.836,2.788a1,1,0,0,1,1.83.57l-.025,1.961a1,1,0,0,0,1.336.954l1.74-.621a1,1,0,0,1,1.152,1.521L18.649,8.889a1,1,0,0,0,.505,1.53l1.932.63a1,1,0,0,1,0,1.9l-1.932.63a1,1,0,0,0-.505,1.53l1.219,1.716a1,1,0,0,1-1.152,1.521l-1.74-.621a1,1,0,0,0-1.336.954l.025,1.961a1,1,0,0,1-1.83.57l-1.005-1.5a1,1,0,0,0-1.66,0l-1.005,1.5a1,1,0,0,1-1.83-.57l.025-1.961a1,1,0,0,0-1.336-.954l-1.74.621a1,1,0,0,1-1.152-1.521l1.219-1.716a1,1,0,0,0-.505-1.53l-1.932-.63a1,1,0,0,1,0-1.9l1.932-.63a1,1,0,0,0,.505-1.53L4.132,7.173A1,1,0,0,1,5.283,5.652l1.74.621a1,1,0,0,0,1.336-.954L8.334,3.358a1,1,0,0,1,1.83-.57l1.005,1.5a1,1,0,0,0,1.66,0Z" transform="translate(450 1330)" fill="url(#linear-gradient)"/>
+        <circle id="Ellipse_391" data-name="Ellipse 391" cx="4" cy="4" r="4" transform="translate(458 1338)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
